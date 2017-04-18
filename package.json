@@ -30,6 +30,12 @@
       "email": "zmagyar@gmail.com"
     }
   ],
+  "keywords": [
+    "extjs",
+    "webpack",
+    "sencha",
+    "webpack-loader"
+  ],
   "name": "extjs-loader",
   "optionalDependencies": {},
   "repository": {
