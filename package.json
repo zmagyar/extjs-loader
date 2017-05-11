@@ -43,5 +43,5 @@
     "url": "git+ssh://git@github.com/zmagyar/extjs-loader.git"
   },
   "scripts": {},
-  "version": "0.0.2"
+  "version": "0.0.4"
 }
