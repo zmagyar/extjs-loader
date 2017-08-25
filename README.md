@@ -5,6 +5,8 @@
 ```bash
 npm install --save-dev extjs-loader
 ```
+## Sample
+You can find a sample project demonstrating the usage of the loader at https://github.com/zmagyar/extjs-loader-sample
 
 ## Usage
 
@@ -21,7 +23,7 @@ module.exports = {
     rules: [
       {
         test: /\.js/,
-        use: [ 
+        use: [
             {
                 loader: 'extjs-loader',
                 debug: true,
@@ -50,8 +52,8 @@ module.exports = {
 
 ## Advanced usage
 
-From v0.0.2 [extjs-parser](https://www.npmjs.com/package/extjs-parser) is added as peer dependency to allow processing of the sdk as well. 
-It allows you to include only those Ext.js classes which are required by your project. I.e. you do not need to create a custom Ext.js build by using Sencha CMD. 
+From v0.0.2 [extjs-parser](https://www.npmjs.com/package/extjs-parser) is added as peer dependency to allow processing of the sdk as well.
+It allows you to include only those Ext.js classes which are required by your project. I.e. you do not need to create a custom Ext.js build by using Sencha CMD.
 It is enough if you use this loader and it will add only the required Ext.js classes to your bundle.
 
 **webpack.config.js example**
@@ -61,7 +63,7 @@ module.exports = {
     rules: [
       {
         test: /\.js/,
-        use: [ 
+        use: [
             {
                 loader: 'extjs-loader',
                 debug: true,
@@ -107,8 +109,8 @@ For more detailed description see [extjs-parser](https://www.npmjs.com/package/e
 
 ## History
 
-### v0.0.1 
+### v0.0.1
 Initial release to process project files
 
 ### v0.0.2
-Support for [extjs-parser](https://www.npmjs.com/package/extjs-parser) to allow processing of Ext.js sdk dependencies 
+Support for [extjs-parser](https://www.npmjs.com/package/extjs-parser) to allow processing of Ext.js sdk dependencies
